@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.3.0)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - PullToRefreshKit (0.8.8)
+  - Realm (10.0.0):
+    - Realm/Headers (= 10.0.0)
+  - Realm/Headers (10.0.0)
+  - RealmSwift (10.0.0):
+    - Realm (= 10.0.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyBeaver (1.9.2)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - PromiseKit
+  - PullToRefreshKit
+  - RealmSwift
+  - RxCocoa
+  - RxSwift
+  - SwiftyBeaver
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - PromiseKit
+    - PullToRefreshKit
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  Realm: 5654b8e5e45034d07b219e089034be2ef7d1e7bf
+  RealmSwift: 5b4c8c85be4c14ff52054a4d80a8d338167dd79c
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyBeaver: b8239f6bfe9e1ea3303e6139abc8c24228081d84
+
+PODFILE CHECKSUM: 549b4dde357f2c50e1e5233598e0ad55c044f7e4
+
+COCOAPODS: 1.10.0
