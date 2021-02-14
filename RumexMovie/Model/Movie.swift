@@ -34,4 +34,10 @@ struct Movie: Codable {
         case voteAverage = "vote_average"
         case voteCount = "vote_count"
     }
+    
+    enum originalLanguage: String, Codable {
+        case en = "en"
+    }
 }
+
+

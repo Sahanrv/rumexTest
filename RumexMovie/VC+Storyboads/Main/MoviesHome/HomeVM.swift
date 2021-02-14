@@ -25,7 +25,7 @@ class HomeVM: BaseVM {
             return
         }
         
-        APIClient.getMovies(page: 1, completion: { (result) in
+        APIClient.getMovies(page: page, completion: { (result) in
             switch result {
             case .success(let responseModel):
                 if isLoadMore {
@@ -55,7 +55,7 @@ class HomeVM: BaseVM {
             return
         }
         
-        APIClient.getTVShows(page: 1, completion: { (result) in
+        APIClient.getTVShows(page: page, completion: { (result) in
             switch result {
             case .success(let responseModel):
                 if isLoadMore {
@@ -85,7 +85,7 @@ class HomeVM: BaseVM {
             return
         }
         
-        APIClient.getTVShows(page: 1, completion: { (result) in
+        APIClient.getSearchMovies(query: searchText ?? "", completion: { (result) in
             switch result {
             case .success(let responseModel):
                 self.movieList.accept(responseModel.results)

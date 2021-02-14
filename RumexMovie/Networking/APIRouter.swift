@@ -44,7 +44,7 @@ enum APIRouter: APIConfiguration {
         case .upcoming(page: let page):
             return "/movie/upcoming?api_key=\(ApplicationServiceProvider.shared.apiKey)&page=\(page)"
         case .search(query: let query):
-            return "search/movie?api_key=\(ApplicationServiceProvider.shared.apiKey)&query=\(query ?? "")"
+            return "/search/movie?api_key=\(ApplicationServiceProvider.shared.apiKey)&query=\(query ?? "")"
         }
     }
     

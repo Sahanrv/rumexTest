@@ -2,8 +2,8 @@
 //  Constants.swift
 //  RumexMovie
 //
-//  Created by Dushan Saputhanthri on 26/6/18.
-//  Copyright © 2018 Elegant Media Pvt Ltd. All rights reserved.
+//  Created by Sahan Ravindu on 2021-01-29.
+//
 //
 
 import Foundation

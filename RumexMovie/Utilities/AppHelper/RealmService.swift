@@ -1,6 +1,6 @@
 //
 //  RealmService.swift
-//  Copyright © 2019 Elegant Media Pvt Ltd. All rights reserved.
+//  Created by Sahan Ravindu on 2021-01-29.
 //
 
 import Foundation

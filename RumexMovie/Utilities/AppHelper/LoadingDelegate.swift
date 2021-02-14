@@ -1,6 +1,6 @@
 //
 //  LoadingDelegate.swift
-//  Copyright © 2019 ElegantMedia. All rights reserved.
+//  Created by Sahan Ravindu on 2021-01-29.
 //
 
 import Foundation
