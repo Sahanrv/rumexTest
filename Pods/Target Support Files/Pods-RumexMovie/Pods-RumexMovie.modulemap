@@ -1,0 +1,6 @@
+framework module Pods_RumexMovie {
+  umbrella header "Pods-RumexMovie-umbrella.h"
+
+  export *
+  module * { export * }
+}
